@@ -1,0 +1,628 @@
+{
+  "business": {
+    "name": "Summit Dentist",
+    "phone": "555-den-r91",
+    "category": "dentist",
+    "city": "Scottsdale",
+    "state": "AZ"
+  },
+  "design": {
+    "preset": {
+      "id": "dentist-mountain-bold",
+      "categoryGroup": "dentist",
+      "name": "Mountain Bold",
+      "recipeFile": "dentist/mountain-bold.astro",
+      "colors": {
+        "primary": "#155E75",
+        "primaryDark": "#0f4252",
+        "primaryLight": "#c5d7dd",
+        "secondary": "#0891B2",
+        "accent": "#06B6D4",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#155E75",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "dentist/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Healthy Smiles in Scottsdale",
+      "heroSubline": "Summit Dentist provides expert dental care tailored to the Phoenix metro area. Our gentle approach ensures comfortable treatments for every patient.",
+      "aboutTitle": "Your Trusted Scottsdale Dentist",
+      "aboutText": [
+        "Founded in 2012, Summit Dentist has been serving the Scottsdale community with personalized dental care. Our practice was built on the belief that everyone deserves a healthy, confident smile.",
+        "We combine advanced techniques with a patient-first philosophy, taking time to understand each individual's needs. Our team stays current with continuing education to provide the best possible care.",
+        "As active members of the Scottsdale community, we're committed to making quality dentistry accessible. From Old Town to North Scottsdale, we're proud to be your neighborhood dental home."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "We understand the unique dental needs of Arizona residents facing extreme heat and dry climate conditions."
+        },
+        {
+          "title": "Comfort First",
+          "description": "Our office is designed to help anxious patients relax, with amenities tailored for your comfort."
+        },
+        {
+          "title": "Preventive Focus",
+          "description": "We emphasize education and early detection to prevent major dental issues before they develop."
+        },
+        {
+          "title": "Modern Technology",
+          "description": "Digital X-rays and intraoral cameras minimize radiation exposure while improving diagnostic accuracy."
+        }
+      ],
+      "ctaHeadline": "Ready for a Healthier Smile?",
+      "ctaSubline": "Schedule your appointment today and experience dentistry designed for Scottsdale residents."
+    },
+    "services": [
+      {
+        "slug": "preventive-care",
+        "name": "Preventive Care",
+        "shortDescription": "Comprehensive exams and cleanings to maintain optimal oral health.",
+        "description": "Our preventive care services are designed to protect your smile against Arizona's unique challenges. The dry climate can contribute to plaque buildup and tooth decay, making regular cleanings essential.\n\nWe perform thorough examinations using digital imaging to detect issues early. Our hygienists provide personalized oral hygiene instruction, focusing on techniques to combat dry mouth—a common concern in our arid environment. We also offer sealants and fluoride treatments to strengthen vulnerable teeth.\n\nFor patients with busy lifestyles in Scottsdale's golf communities or Old Town professionals, we provide efficient scheduling to fit dental care seamlessly into your routine.",
+        "process": [
+          "Step 1: Comprehensive oral examination and digital X-rays",
+          "Step 2: Professional cleaning to remove plaque and tartar",
+          "Step 3: Personalized oral health assessment and recommendations",
+          "Step 4: Follow-up plan tailored to your needs and lifestyle"
+        ],
+        "benefits": [
+          "Early detection of dental issues",
+          "Customized prevention strategies",
+          "Reduced risk of cavities and gum disease",
+          "Education for optimal home care"
+        ],
+        "faq": [
+          {
+            "question": "How often should I get a dental cleaning in Arizona's dry climate?",
+            "answer": "We recommend cleanings every 6 months, though some patients benefit from 3-4 month intervals if they experience dry mouth or rapid tartar buildup."
+          },
+          {
+            "question": "Do you offer early morning or late evening appointments?",
+            "answer": "Yes, we accommodate Scottsdale professionals with flexible scheduling, including appointments as early as 7 AM."
+          },
+          {
+            "question": "What makes your cleanings different from other practices?",
+            "answer": "We use specialized hydration protocols to protect sensitive tissues in our arid climate, and our hygienists receive advanced training in dry mouth management."
+          }
+        ]
+      },
+      {
+        "slug": "cosmetic-dentistry",
+        "name": "Cosmetic Dentistry",
+        "shortDescription": "Enhance your smile with customized aesthetic treatments.",
+        "description": "In image-conscious Scottsdale, your smile is often your first introduction. Our cosmetic dentistry services help you make the best impression, whether you're networking at Fashion Square or enjoying North Scottsdale's social scene.\n\nWe offer teeth whitening treatments specifically formulated to combat stains from coffee, tea, and red wine—popular among our local clients. Porcelain veneers can transform your smile while withstanding our intense sunlight that might reveal flaws in lesser materials.\n\nFor patients in Scottsdale's luxury communities, we provide discreet in-office whitening that delivers dramatic results in about an hour. Our cosmetic consultations include digital smile design to preview your potential results.",
+        "process": [
+          "Step 1: Comprehensive smile analysis and digital imaging",
+          "Step 2: Custom treatment plan discussion",
+          "Step 3: Precise treatment with attention to detail",
+          "Step 4: Final adjustments and aftercare instructions"
+        ],
+        "benefits": [
+          "Natural-looking results",
+          "Durable materials suited for Arizona climate",
+          "Quick, effective treatments",
+          "Customized to complement facial features"
+        ],
+        "faq": [
+          {
+            "question": "Will my veneers look unnatural in Arizona's bright sunlight?",
+            "answer": "We use high-quality porcelain that mimics natural tooth translucency, ensuring your smile looks authentic even in our intense desert light."
+          },
+          {
+            "question": "How long does professional whitening last in our climate?",
+            "answer": "With proper care, results typically last 6-12 months. We provide touch-up kits and recommend avoiding stain-causing foods and drinks immediately after treatment."
+          },
+          {
+            "question": "Are cosmetic treatments covered by insurance?",
+            "answer": "Most cosmetic procedures aren't covered, but we offer flexible payment options and can often combine cosmetic work with medically necessary treatments for better coverage."
+          }
+        ]
+      },
+      {
+        "slug": "restorative-dentistry",
+        "name": "Restorative Dentistry",
+        "shortDescription": "Repair damaged teeth with durable, functional solutions.",
+        "description": "Arizona's climate can take a toll on dental work, with extreme temperature changes potentially affecting materials. Our restorative treatments use high-quality materials designed to withstand these conditions.\n\nWe provide tooth-colored fillings that resist expansion and contraction better than traditional metals. For patients with damaged teeth from sports or accidents—common in our active community—we offer crowns and bridges crafted from zirconia, which handles thermal stress exceptionally well.\n\nOur restorative approach prioritizes both function and aesthetics, ensuring your repaired teeth blend seamlessly with your natural smile. Whether you're in historic Old Town or modern DC Ranch, we'll restore your teeth to full health and beauty.",
+        "process": [
+          "Step 1: Detailed examination and digital impressions",
+          "Step 2: Removal of decay or damage",
+          "Step 3: Custom fabrication of restoration",
+          "Step 4: Permanent placement and bite adjustment"
+        ],
+        "benefits": [
+          "Materials suited for desert climate",
+          "Natural-looking results",
+          "Long-lasting durability",
+          "Preservation of healthy tooth structure"
+        ],
+        "faq": [
+          {
+            "question": "How do your fillings hold up in extreme heat?",
+            "Answer": "Our composite fillings are formulated with thermal expansion properties that match natural tooth structure, reducing the risk of microleakage in temperature fluctuations."
+          },
+          {
+            "question": "Can I get same-day crowns in Scottsdale?",
+            "Answer": "Yes, we offer CEREC same-day crowns for patients who need efficient solutions without sacrificing quality."
+          },
+          {
+            "question": "What's the best option for replacing missing teeth?",
+            "Answer": "We'll recommend solutions based on your specific needs, whether it's dental implants, bridges, or partial dentures—all crafted to withstand our arid environment."
+          }
+        ]
+      },
+      {
+        "slug": "periodontal-care",
+        "name": "Periodontal Care",
+        "shortDescription": "Specialized treatment for gum disease and oral inflammation.",
+        "description": "Arizona's dry climate can exacerbate gum disease, with dehydration reducing protective saliva flow. Our periodontal services address these unique challenges faced by Scottsdale residents.\n\nWe offer deep cleanings (scaling and root planing) using gentle techniques to minimize discomfort. For patients experiencing dry mouth—a common issue in our desert environment—we provide specialized hydration protocols during treatment.\n\nOur team educates patients on recognizing early signs of gum disease, which can progress more quickly in arid conditions. We work closely with you to develop a maintenance plan that fits your lifestyle, whether you're a busy professional in Tempe or a retiree in Gainey Ranch.",
+        "process": [
+          "Step 1: Comprehensive periodontal evaluation",
+          "Step 2: Customized treatment planning",
+          "Step 3: Gentle deep cleaning procedures",
+          "Step 4: Ongoing maintenance program"
+        ],
+        "benefits": [
+          "Reduced inflammation and bleeding",
+          "Prevention of bone loss",
+          "Fresher breath",
+          "Improved overall health"
+        ],
+        "faq": [
+          {
+            "question": "Does Arizona's dry climate make gum disease worse?",
+            "Answer": "Yes, reduced saliva flow allows bacteria to proliferate. We recommend additional hydration and specialized oral care products for our climate."
+          },
+          {
+            "question": "How often will I need periodontal maintenance?",
+            "Answer": "Most patients require cleanings every 3-4 months, though we'll customize your schedule based on your specific condition and response to treatment."
+          },
+          {
+            "question": "Is periodontal treatment painful?",
+            "Answer": "We use advanced techniques and local anesthesia to ensure comfort throughout your procedure."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-dentistry",
+        "name": "Emergency Dentistry",
+        "shortDescription": "Prompt care for dental trauma and sudden pain.",
+        "description": "Dental emergencies don't wait for convenient times, and neither do we. Our emergency services provide immediate relief for Scottsdale residents experiencing sudden dental issues.\n\nWe treat cracked teeth from sports injuries (common in our active community), severe toothaches that disrupt sleep in our warm nights, and lost restorations that need quick repair. Our office maintains same-day emergency slots for established patients.\n\nFor visitors enjoying Scottsdale's resorts or golf courses, we offer expedited care to resolve issues quickly. Our team understands how painful dental emergencies can be in our dry climate, where dehydration may worsen symptoms.",
+        "process": [
+          "Step 1: Immediate pain assessment",
+          "Step 2: Diagnostic imaging as needed",
+          "Step 3: Treatment to alleviate discomfort",
+          "Step 4: Follow-up plan for complete resolution"
+        ],
+        "benefits": [
+          "Same-day emergency appointments",
+          "Compassionate pain management",
+          "Experienced trauma care",
+          "Continuity with your regular dentist"
+        ],
+        "faq": [
+          {
+            "question": "What qualifies as a dental emergency?",
+            "Answer": "Severe pain, swelling, trauma, or infections require immediate attention. We can advise whether your situation needs urgent care when you call."
+          },
+          {
+            "question": "Do you see emergency patients who aren't established?",
+            "Answer": "Yes, we accommodate new patients with dental emergencies, though we may prioritize existing patients during peak times."
+          },
+          {
+            "question": "How can I manage pain until my emergency appointment?",
+            "Answer": "We'll provide specific instructions when you call, which may include saltwater rinses, cold compresses, or temporary filling materials available at pharmacies."
+          }
+        ]
+      },
+      {
+        "slug": "pediatric-dentistry",
+        "name": "Pediatric Dentistry",
+        "shortDescription": "Gentle dental care for Scottsdale's youngest patients.",
+        "description": "Raising children in Arizona's unique climate presents special dental considerations. Our pediatric services help Scottsdale families establish healthy habits early.\n\nWe focus on preventing cavities in children who may consume more sugary drinks due to our heat. Our team is trained to make visits enjoyable, using child-friendly explanations and a welcoming office environment.\n\nFor families in Scottsdale's school districts and neighborhoods like DC Ranch, we offer convenient appointment times that work around school schedules. We provide sealants and fluoride treatments that are especially beneficial in our arid environment where dehydration can reduce protective saliva.",
+        "process": [
+          "Step 1: Child-friendly introduction to the dental environment",
+          "Step 2: Gentle examination and cleaning",
+          "Step 3: Age-appropriate oral health education",
+          "Step 4: Custom preventive care plan"
+        ],
+        "benefits": [
+          "Early cavity detection",
+          "Positive dental experiences",
+          "Climate-specific prevention strategies",
+          "Family-focused scheduling"
+        ],
+        "faq": [
+          {
+            "question": "When should my child first visit the dentist?",
+            "Answer": "We recommend the first visit by age 1 or within 6 months of the first tooth erupting—especially important in our dry climate."
+          },
+          {
+            "question": "How can I protect my child's teeth in Arizona summers?",
+            "Answer": "Encourage water over sugary drinks, use fluoridated toothpaste, and consider sealants for extra protection against our climate's challenges."
+          },
+          {
+            "question": "Do you offer sedation for anxious children?",
+            "Answer": "We provide nitrous oxide (laughing gas) when needed, using the lowest effective dose for maximum safety."
+          }
+        ]
+      },
+      {
+        "slug": "dental-implants",
+        "name": "Dental Implants",
+        "shortDescription": "Permanent tooth replacement that looks and feels natural.",
+        "description": "For Scottsdale residents missing teeth, implants offer the most natural and durable solution in our demanding climate. Unlike removable options that can be affected by dry mouth, implants integrate permanently with your jawbone.\n\nWe use high-quality titanium implants that withstand temperature extremes without expanding or contracting noticeably. Our precise placement techniques ensure optimal results, whether you're an active golfer in Gainey Ranch or a professional in Old Town.\n\nThe implant process is carefully planned using 3D imaging to account for bone density, which can be affected by Arizona's mineral-rich water. We guide you through each step, from initial consultation to final restoration, ensuring your new tooth matches your natural smile perfectly.",
+        "process": [
+          "Step 1: Comprehensive evaluation and 3D imaging",
+          "Step 2: Surgical placement of implant post",
+          "Step 3: Healing period with temporary restoration",
+          "Step 4: Placement of permanent crown"
+        ],
+        "benefits": [
+          "Functions like natural teeth",
+          "Preserves jawbone structure",
+          "No slipping or discomfort",
+          "Long-term solution"
+        ],
+        "faq": [
+          {
+            "question": "How long do implants last in Arizona's climate?",
+            "Answer": "With proper care, implants can last decades. The titanium isn't affected by heat, though we recommend extra hydration to support gum health around the implant."
+          },
+          {
+            "question": "Is the implant process painful?",
+            "Answer": "We use local anesthesia and sedation options to ensure comfort. Most patients report minimal discomfort during recovery."
+          },
+          {
+            "question": "Can implants replace multiple missing teeth?",
+            "Answer": "Yes, we can place multiple implants or use them to support bridges, providing customized solutions for your specific needs."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Meredith T.",
+        "rating": 5,
+        "service": "Cosmetic Dentistry",
+        "text": "After years of hiding my smile at Scottsdale social events, Dr. Chen transformed my teeth with veneers that look incredibly natural, even in our bright Arizona sunlight. The entire team made me feel comfortable throughout the process.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Raj P.",
+        "rating": 5,
+        "service": "Emergency Dentistry",
+        "text": "When I cracked a tooth during a golf game at TPC Scottsdale, Summit Dentist got me in immediately. They fixed the damage perfectly and even arranged follow-up care around my work schedule in Old Town.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Sophia L.",
+        "rating": 5,
+        "service": "Pediatric Dentistry",
+        "text": "My daughter used to dread dental visits until we found Summit Dentist. Now she actually looks forward to her cleanings! The hygienist taught her special techniques for our dry climate that have greatly improved her oral health.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Dental Implants",
+        "text": "As a construction worker in Mesa, I needed durable teeth that could withstand the heat. My implants from Summit Dentist feel and function just like natural teeth—no more worrying about dentures slipping in the summer heat.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Aisha K.",
+        "rating": 5,
+        "service": "Periodontal Care",
+        "text": "After struggling with gum inflammation worsened by Arizona's dry air, the periodontal treatment at Summit Dentist made a dramatic difference. They created a customized maintenance plan that works with my busy schedule at Scottsdale Fashion Square.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Greg B.",
+        "rating": 5,
+        "service": "Restorative Dentistry",
+        "text": "The crown Summit Dentist placed after my biking accident in McDowell Sonoran Preserve matches my natural tooth perfectly. Two years later, it's holding up beautifully despite our extreme temperature changes.",
+        "date": "2024-09-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Scottsdale Dentist | Summit Dentist | Phoenix Metro",
+        "description": "Trusted Scottsdale dentist providing comprehensive care for Arizona's unique climate. Serving Phoenix, Mesa, Chandler, Gilbert & Tempe with personalized treatments."
+      },
+      "about": {
+        "title": "About Our Scottsdale Dental Practice | Summit Dentist",
+        "description": "Learn about our Scottsdale dental team and patient-centered approach to care in Arizona's unique climate. Serving the Phoenix metro since 2012."
+      },
+      "services": {
+        "title": "Dental Services in Scottsdale | Summit Dentist",
+        "description": "Complete dental care tailored for Arizona residents. From preventive to cosmetic dentistry, we address the unique needs of Scottsdale's climate and lifestyle."
+      },
+      "contact": {
+        "title": "Contact Scottsdale Dentist | Summit Dentist AZ",
+        "description": "Schedule your appointment with"
+      }
+    },
+    "serviceAreas": [
+      {
+        "city": "Phoenix",
+        "slug": "phoenix-az",
+        "state": "AZ",
+        "content": "Summit Dentist proudly serves the Phoenix community, providing top-tier dental care to residents of this vibrant city. With a population of approximately 1.65 million, Phoenix is known for its 1960s-70s block construction homes, which often require specialized dental solutions for families who've lived here for generations. Our team understands the challenges of maintaining oral health in extreme summer heat exceeding 110°F and offers personalized care to keep your smile healthy year-round. Whether you're in downtown Phoenix or the surrounding neighborhoods, we're committed to delivering exceptional dental services tailored to your needs.",
+        "localContext": "Phoenix features predominantly 1960s-70s block construction homes and experiences extreme summer temperatures.",
+        "nearbyAreas": [
+          "Scottsdale",
+          "Glendale",
+          "Peoria"
+        ]
+      },
+      {
+        "city": "Mesa",
+        "slug": "mesa-az",
+        "state": "AZ",
+        "content": "At Summit Dentist, we're proud to serve the Mesa community, where approximately 510,000 residents call home. Mesa's distinctive 1970s-80s stucco homes reflect its unique architectural character, and our dental practice complements this by offering modern, comfortable care. The extreme summer heat exceeding 110°F can impact oral health, making regular check-ups especially important. We provide comprehensive services from routine cleanings to advanced treatments, ensuring Mesa families maintain healthy smiles despite the challenging climate.",
+        "localContext": "Mesa is characterized by 1970s-80s stucco homes and shares Phoenix's extreme summer temperatures.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Tempe",
+          "Chandler"
+        ]
+      },
+      {
+        "city": "Chandler",
+        "slug": "chandler-az",
+        "state": "AZ",
+        "content": "Summit Dentist is delighted to serve Chandler's growing population of about 280,000 residents. This city's 1990s-2000s planned developments create beautiful, family-friendly neighborhoods where oral health is a priority. Like the rest of the Valley, Chandler faces extreme summer heat exceeding 110°F, which can contribute to dry mouth and other dental concerns. Our practice offers state-of-the-art preventive care and cosmetic dentistry to help Chandler residents maintain confident smiles in any weather.",
+        "localContext": "Chandler features planned developments from the 1990s-2000s and experiences the region's extreme summer heat.",
+        "nearbyAreas": [
+          "Gilbert",
+          "Tempe",
+          "Mesa"
+        ]
+      },
+      {
+        "city": "Gilbert",
+        "slug": "gilbert-az",
+        "state": "AZ",
+        "content": "Summit Dentist provides exceptional dental care to Gilbert's approximately 280,000 residents. As one of Arizona's fastest-growing communities with predominantly 2000s-2020s construction, Gilbert attracts families seeking modern amenities and quality healthcare. The extreme summer heat exceeding 110°F presents unique oral health challenges we're specially equipped to address. From pediatric dentistry to advanced restorative procedures, our Gilbert patients receive personalized care in a comfortable, welcoming environment.",
+        "localContext": "Gilbert consists mostly of newer construction from the 2000s-2020s and shares the Valley's extreme summer climate.",
+        "nearbyAreas": [
+          "Chandler",
+          "Mesa",
+          "Queen Creek"
+        ]
+      },
+      {
+        "city": "Tempe",
+        "slug": "tempe-az",
+        "state": "AZ",
+        "content": "Summit Dentist is proud to serve Tempe's diverse community of approximately 185,000 residents, including many ASU students and faculty. The university-area homes give Tempe a vibrant, youthful energy that inspires us to provide innovative dental care. While the extreme summer heat exceeding 110°F can be tough on smiles, our preventive services help Tempe residents maintain optimal oral health. We offer flexible scheduling to accommodate busy academic calendars and provide all the dental services college students and long-time residents need.",
+        "localContext": "Tempe features university-area homes near ASU and experiences the region's extreme summer temperatures.",
+        "nearbyAreas": [
+          "Mesa",
+          "Chandler",
+          "Scottsdale"
+        ]
+      },
+      {
+        "city": "Scottsdale",
+        "slug": "scottsdale-az",
+        "state": "AZ",
+        "content": "As Scottsdale's premier dental practice, Summit Dentist delivers exceptional care to residents of this upscale community. While we're based in Scottsdale, we extend our services throughout the Valley. Scottsdale's mix of luxury homes and resort-style living demands equally refined dental care. The extreme summer heat exceeding 110°F affects everyone in the area, and we provide specialized treatments to combat its effects on oral health. From cosmetic enhancements to family dentistry, we help Scottsdale residents maintain their signature smiles.",
+        "localContext": "Scottsdale combines luxury living with the challenges of extreme summer heat common across the Valley.",
+        "nearbyAreas": [
+          "Phoenix",
+          "Tempe",
+          "Paradise Valley"
+        ]
+      },
+      {
+        "city": "Glendale",
+        "slug": "glendale-az",
+        "state": "AZ",
+        "content": "Summit Dentist welcomes patients from Glendale, providing comprehensive dental care to this historic West Valley community. With neighborhoods ranging from mid-century to modern construction, Glendale residents deserve personalized dental solutions. The extreme summer heat exceeding 110°F affects oral health just as much here as elsewhere in the Valley. We offer everything from routine cleanings to advanced restorative work, helping Glendale families maintain healthy smiles despite the challenging climate.",
+        "localContext": "Glendale features a mix of architectural styles and shares the Phoenix area's extreme summer temperatures.",
+        "nearbyAreas": [
+          "Peoria",
+          "Phoenix",
+          "Sun City"
+        ]
+      },
+      {
+        "city": "Peoria",
+        "slug": "peoria-az",
+        "state": "AZ",
+        "content": "Summit Dentist serves the Peoria community with high-quality dental care tailored to this growing Northwest Valley city. Peoria's mix of established neighborhoods and new developments creates diverse dental needs we're equipped to meet. The extreme summer heat exceeding 110°F impacts Peoria residents just as it does across the metro area, making preventive care especially important. Whether you're near Lake Pleasant or in older Peoria neighborhoods, we provide comfortable, modern dental care for all ages.",
+        "localContext": "Peoria combines established neighborhoods with new developments and experiences extreme summer heat.",
+        "nearbyAreas": [
+          "Glendale",
+          "Surprise",
+          "Sun City"
+        ]
+      },
+      {
+        "city": "Surprise",
+        "slug": "surprise-az",
+        "state": "AZ",
+        "content": "Summit Dentist extends its services to Surprise, offering exceptional dental care to this fast-growing Northwest Valley community. With many active adult communities and young families, Surprise has unique dental needs we're prepared to address. The extreme summer heat exceeding 110°F affects oral health here as throughout the region, and we provide specialized care to combat these challenges. From routine check-ups to complete smile makeovers, we help Surprise residents achieve and maintain their best possible oral health.",
+        "localContext": "Surprise is one of the Valley's fastest-growing areas and experiences the region's extreme summer temperatures.",
+        "nearbyAreas": [
+          "Peoria",
+          "Sun City West",
+          "El Mirage"
+        ]
+      },
+      {
+        "city": "Queen Creek",
+        "slug": "queen-creek-az",
+        "state": "AZ",
+        "content": "Summit Dentist is pleased to serve Queen Creek's expanding community at the southeastern edge of the Valley. This area's rapid growth and family-friendly atmosphere make quality dental care essential. While slightly more rural than other Valley communities, Queen Creek shares the extreme summer heat exceeding 110°F that affects oral health throughout the region. We provide comprehensive dental services to help Queen Creek residents maintain healthy smiles, with special attention to the needs of growing families.",
+        "localContext": "Queen Creek offers a more rural feel while experiencing the same extreme summer heat as the broader Valley.",
+        "nearbyAreas": [
+          "Gilbert",
+          "San Tan Valley",
+          "Chandler"
+        ]
+      },
+      {
+        "city": "Goodyear",
+        "slug": "goodyear-az",
+        "state": "AZ",
+        "content": "Summit Dentist welcomes patients from Goodyear, providing excellent dental care to this thriving West Valley community. Goodyear's mix of established neighborhoods and new master-planned communities creates diverse dental needs we're equipped to meet. The extreme summer heat exceeding 110°F impacts oral health here as throughout the Valley, making preventive care especially important. Whether you're near the Ballpark or in older Goodyear areas, we provide comfortable, modern dental care for all ages.",
+        "localContext": "Goodyear combines established areas with new developments and experiences the Valley's extreme summer heat.",
+        "nearbyAreas": [
+          "Avondale",
+          "Litchfield Park",
+          "Buckeye"
+        ]
+      },
+      {
+        "city": "Avondale",
+        "slug": "avondale-az",
+        "state": "AZ",
+        "content": "Summit Dentist serves the Avondale community with high-quality dental care tailored to this growing West Valley city. Avondale's mix of historic areas and new construction creates varied dental needs we're prepared to address. The extreme summer heat exceeding 110°F affects Avondale residents just as it does across the metro area. We offer everything from pediatric dentistry to advanced cosmetic procedures, helping Avondale families maintain healthy smiles despite the challenging desert climate.",
+        "localContext": "Avondale features both historic neighborhoods and new developments while sharing the Valley's extreme temperatures.",
+        "nearbyAreas": [
+          "Goodyear",
+          "Tolleson",
+          "Litchfield Park"
+        ]
+      }
+    ],
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "500+",
+      "satisfaction": "98%",
+      "teamSize": "15+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "preventive-care": "/images/service-preventive-care.webp",
+      "cosmetic-dentistry": "/images/service-cosmetic-dentistry.webp",
+      "restorative-dentistry": "/images/service-restorative-dentistry.webp",
+      "periodontal-care": "/images/service-periodontal-care.webp",
+      "emergency-dentistry": "/images/service-emergency-dentistry.webp",
+      "pediatric-dentistry": "/images/service-pediatric-dentistry.webp",
+      "dental-implants": "/images/service-dental-implants.webp"
+    },
+    "servicesResponsive": {
+      "preventive-care": {
+        "src": "/images/service-preventive-care.webp",
+        "srcset": "/images/service-preventive-care-400w.webp 400w, /images/service-preventive-care-800w.webp 800w, /images/service-preventive-care-1200w.webp 1200w, /images/service-preventive-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cosmetic-dentistry": {
+        "src": "/images/service-cosmetic-dentistry.webp",
+        "srcset": "/images/service-cosmetic-dentistry-400w.webp 400w, /images/service-cosmetic-dentistry-800w.webp 800w, /images/service-cosmetic-dentistry-1200w.webp 1200w, /images/service-cosmetic-dentistry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "restorative-dentistry": {
+        "src": "/images/service-restorative-dentistry.webp",
+        "srcset": "/images/service-restorative-dentistry-400w.webp 400w, /images/service-restorative-dentistry-800w.webp 800w, /images/service-restorative-dentistry-1200w.webp 1200w, /images/service-restorative-dentistry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "periodontal-care": {
+        "src": "/images/service-periodontal-care.webp",
+        "srcset": "/images/service-periodontal-care-400w.webp 400w, /images/service-periodontal-care-800w.webp 800w, /images/service-periodontal-care-1200w.webp 1200w, /images/service-periodontal-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-dentistry": {
+        "src": "/images/service-emergency-dentistry.webp",
+        "srcset": "/images/service-emergency-dentistry-400w.webp 400w, /images/service-emergency-dentistry-800w.webp 800w, /images/service-emergency-dentistry-1200w.webp 1200w, /images/service-emergency-dentistry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pediatric-dentistry": {
+        "src": "/images/service-pediatric-dentistry.webp",
+        "srcset": "/images/service-pediatric-dentistry-400w.webp 400w, /images/service-pediatric-dentistry-800w.webp 800w, /images/service-pediatric-dentistry-1200w.webp 1200w, /images/service-pediatric-dentistry.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "dental-implants": {
+        "src": "/images/service-dental-implants.webp",
+        "srcset": "/images/service-dental-implants-400w.webp 400w, /images/service-dental-implants-800w.webp 800w, /images/service-dental-implants-1200w.webp 1200w, /images/service-dental-implants.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
